@@ -9,6 +9,7 @@ use yaml_rust::YamlLoader;
 
 use discord_rpc_client::Client;
 
+
 // discord_rpc filename
 fn main() {
     let filename = args().nth(1).unwrap();
