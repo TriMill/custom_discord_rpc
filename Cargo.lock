@@ -63,6 +63,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom_discord_rpc"
+version = "0.1.0"
+dependencies = [
+ "discord-rpc-client",
+ "yaml-rust",
+]
+
+[[package]]
 name = "discord-rpc-client"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -78,14 +86,6 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "uuid",
-]
-
-[[package]]
-name = "discord_rpc"
-version = "0.1.0"
-dependencies = [
- "discord-rpc-client",
- "yaml-rust",
 ]
 
 [[package]]
