@@ -1,0 +1,11 @@
+# Example config file
+# Uncomment the next line and add your client ID
+#client_id: ???
+interval: 15000
+details: Using Discord RPC
+state: github.com/trimill/discord_rpc
+# Upload images to your developer page and put the filenames here
+#image: 
+#tooltip:
+#small_image:
+#small_tooltip:
