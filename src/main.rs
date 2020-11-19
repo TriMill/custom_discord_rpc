@@ -38,10 +38,10 @@ fn main() {
                     asts = asts.large_text(config["tooltip"].as_str().unwrap());
                 }
                 if config["small_image"].as_str().is_some() {
-                    asts = asts.large_image(config["small_image"].as_str().unwrap());
+                    asts = asts.small_image(config["small_image"].as_str().unwrap());
                 }
                 if config["small_tooltip"].as_str().is_some() {
-                    asts = asts.large_text(config["small_tooltip"].as_str().unwrap());
+                    asts = asts.small_text(config["small_tooltip"].as_str().unwrap());
                 }
                 asts
             })
